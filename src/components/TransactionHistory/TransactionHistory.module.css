@@ -10,8 +10,20 @@
 
 .transaction_title{
     color: beige;
-    font-size: 20px;
+    font-size: 18px;
     background-color: rgb(121, 173, 173);
     border-radius: 5px;
-    /* padding: 15px 0; */
+    text-transform: uppercase;
+}
+
+
+td {
+    padding: 15px 0;
+    border-left: 1px solid darkgrey; 
+    color: rgb(128, 128, 128);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+tr:nth-child(2n) {
+    background-color: #e2e2e2;
 }
